@@ -1,0 +1,10 @@
+.marquee-wrapper::before,
+.marquee-wrapper::after {
+  
+  content: '';
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 10%; 
+  pointer-events: none; 
+}
